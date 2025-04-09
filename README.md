@@ -1,5 +1,21 @@
-# LeakScan Script
+# LeakScan Analyzer
 
-Este script en Python permite escanear archivos de texto con posibles filtraciones de información, útiles en análisis de leaks o investigación OSINT.
+Script en Python para escanear archivos de texto con posibles filtraciones de información. Útil para investigaciones OSINT, análisis de leaks y automatización de tareas de reconocimiento.
 
+## Características
+
+- Detecta emails y contraseñas en archivos `.txt`
+- Resultados organizados por categorías
+- Estadísticas resumidas al finalizar
+- Uso sencillo desde línea de comandos
+
+## Requisitos
+
+- Python 3.x
+- Archivo `.txt` con datos filtrados en el mismo directorio
+
+## Ejecución
+
+```bash
+python LeakScan-Script.py
 
