@@ -335,4 +335,4 @@ def slash_command_scheduler():
             print(f"Error initializing command loop: {str(e)}", type_="ERROR")
     
     print("Slash Command Scheduler initialized", type_="DEBUG")
-slash_command_scheduler()
+slash_command_scheduler()# Actualización para nuevo historial
